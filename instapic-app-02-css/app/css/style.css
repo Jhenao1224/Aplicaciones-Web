@@ -1,0 +1,8 @@
+body{
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+}
+
+#login-box{
+    display: flex;
+    flex-direction: column ;
+}
