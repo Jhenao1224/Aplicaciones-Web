@@ -74,14 +74,19 @@ input:focus{
 }
 
 footer{
+    display: flex;
     background-color: #023047;
     font-size: 20px;
     color: #fff;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+footer i{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
 
 .menu ul li i{
     display: inline-flex;
