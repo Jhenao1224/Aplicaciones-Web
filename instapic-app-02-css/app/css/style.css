@@ -14,7 +14,7 @@ header{
     color: #fff;
     display: flex;
     justify-content: center;
-
+    gap: 12px;
 }
 
 main{
@@ -83,6 +83,13 @@ footer{
 }
 
 
+.menu ul li i{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    padding: 10px 15px;
+}
 
 .menu{
     list-style: none;
@@ -98,13 +105,16 @@ footer{
     text-decoration: none;
     display: block;
     padding: 20px;
+
 }
 
 .menu li a:hover{
     background-color: #ef8354;
+
 }
 
 .menu li{
     display: inline-block;
     text-align: center;
+
 }
