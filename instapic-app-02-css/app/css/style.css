@@ -19,10 +19,12 @@ header{
 
 main{
     flex: 1;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; lo que cambiamos hoy para arregarlo nosotros*/
     align-items: center;
-
+    padding: 10px 20px;
+    width: 100%;
 }
 
 #login-box{
@@ -122,4 +124,35 @@ footer i{
     display: inline-block;
     text-align: center;
 
+}
+
+
+#profile{
+    display: flex;
+    background-color: #fff;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#profile img{
+    width: 90px;
+}
+
+
+
+#gallery{
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+
+#gallery img{
+    width: 200px;    
 }
